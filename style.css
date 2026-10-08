@@ -1,6 +1,6 @@
 :root {
-    --primary: #00ff88;
-    --primary-dark: #00c96b;
+    --primary: #2196f3;
+    --primary-dark: #1976d2;
     --dark: #080b10;
     --dark-light: #10151d;
     --card: #151b25;
@@ -194,8 +194,8 @@ header {
     border: 2px solid var(--primary);
 
     box-shadow:
-        0 0 30px rgba(0, 255, 136, 0.2),
-        0 0 80px rgba(0, 255, 136, 0.1);
+        0 0 30px rgba(33, 150, 243, 0.2),
+        0 0 80px rgba(33, 150, 243, 0.1);
 }
 
 .image-wrapper img {
@@ -290,7 +290,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(33, 150, 243, 0.1);
     color: var(--primary);
 
     border-radius: 12px;
@@ -345,7 +345,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(33, 150, 243, 0.1);
 
     border-radius: 12px;
 
@@ -379,7 +379,7 @@ header {
 
     padding: 5px 10px;
 
-    background: rgba(0, 255, 136, 0.08);
+    background: rgba(33, 150, 243, 0.08);
 
     color: var(--primary);
 
@@ -424,7 +424,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(33, 150, 243, 0.1);
 
     border-radius: 12px;
 
@@ -725,14 +725,14 @@ footer p {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(33, 150, 243, 0.1);
     color: var(--primary);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.82rem;
     font-weight: 500;
     margin-bottom: 20px;
-    border: 1px solid rgba(0, 255, 136, 0.2);
+    border: 1px solid rgba(33, 150, 243, 0.2);
 }
 
 .bento-container {
@@ -807,7 +807,7 @@ footer p {
 
 .highlight-card {
     border-color: var(--primary);
-    background: linear-gradient(135deg, var(--card) 0%, rgba(0, 255, 136, 0.05) 100%);
+    background: linear-gradient(135deg, var(--card) 0%, rgba(33, 150, 243, 0.05) 100%);
 }
 
 /* Contact Wrapper Grid */
